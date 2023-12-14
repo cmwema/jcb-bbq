@@ -79,10 +79,10 @@ function Dashboard() {
                     }
                   </td>
                   <td className="w-[100px] border-r p-3 text-left">
-                    {item.buying_price.toLocaleString()}
+                    {item.buying_price}
                   </td>
                   <td className="w-[100px] border-r p-3 text-left">
-                    {item.price.toLocaleString()}
+                    {item.price}
                   </td>
                   <td className="w-[100px] border-r p-3 text-left">
                     {totalOrders}
@@ -139,7 +139,7 @@ function Dashboard() {
                   </td>
                   <td className="p-3 text-left capitalize">{item.name}</td>
                   <td className="p-3 text-left">{totalOrders}</td>
-                  <td className="p-3 text-left">{revenue.toLocaleString()}</td>
+                  <td className="p-3 text-left">{revenue}</td>
                 </tr>
               );
             })}
@@ -210,7 +210,7 @@ function Dashboard() {
                   {item.order_type}
                 </td>
                 <td className="w-[100px] border-r p-3 text-left">
-                  {item.order_cost.toLocaleString()}
+                  {item.order_cost}
                 </td>
                 <td className="flex flex-wrap w-[400px] p-3 text-left">
                   {item.order_items.map((item) => (
