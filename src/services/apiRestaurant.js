@@ -1,4 +1,4 @@
-const API_URL = "https://jcb.onrender.com";
+const API_URL = "https://restaurant-erp-api.onrender.com";
 // const API_URL = "http://127.0.0.1:8000";
 const ACCESS_TOKEN = localStorage.getItem("accessToken");
 
